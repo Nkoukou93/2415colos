@@ -4121,9 +4121,10 @@ section {
 }
 
 .cta-service-single {
-  background-image: url(../images/background/cta-service-signle-bg.jpg);
+  /* background-image: url(../images/background/cta-service-signle-bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: black;
   height: 300px;
 }
 @media (max-width: 767.98px) {
