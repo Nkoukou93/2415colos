@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confirmation de paiement</title>
+    
 </head>
 <body>
     <style>
@@ -15,6 +15,7 @@ body{
     display: flex;
     height: 100vh;
     align-items: center;
+    background-color: #000000;
 }
 
 .thank-you-block {
@@ -32,9 +33,18 @@ body{
 }
 
 .thank-you-block .icon {
-    font-size: 3em;
-    color: #fff; 
-   
+    font-size: 25px;
+    color: #fff;
+    
+}
+
+.icone{
+    background-color: #f50303;
+    width: 50px;
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 100% ;
+    margin: 0 auto;
 }
 
 .thank-you-block h1 {
@@ -51,7 +61,7 @@ body{
 
 .thank-you-block .btn {
     display: inline-block;
-    background-color: #027f53;
+    background-color: #7f0202;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -64,11 +74,12 @@ body{
     background-color: #3ea07a;
 }
     </style>
-    <div class="thank-you-block">
+    <div class="thank-you-block" style="background-color:white; color:rgb(0, 0, 0)" >
         <div>
+            <div class="icone">&#10004;</div>
            <h1>Commande enregistrée !</h1>
-            <p>Votre commande a été effectuée avec succès. <br>Veuillez vérifiez votre e-mail. </p>
-            <a href="accueil-client.html" class="btn"><div class="icon">&#10004;</div></a> 
+            <p> Nous tenons à vous remercier pour votre confiance. N'hésitez pas à nous <a>contacter.</a> </p>
+            <a href="accueil-client.html" class="btn"><div class="icon">okay</div></a> 
         </div>
     </div>
 </body>

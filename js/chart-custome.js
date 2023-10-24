@@ -85,3 +85,10 @@ var chart = new Chart(ctx, {
     }
 });
 
+
+//** popUp */
+
+function popUp(){
+    let touch = document.querySelector(".btn-thm");
+    touch.classList.toggle('open');
+}
