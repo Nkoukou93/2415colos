@@ -43,33 +43,6 @@
 <body>
 
  <!-- Mon popup de la page d'accueil principale -->
- <div class="modal-popup">
-  <div class="box">
-     <div class="img-area">
-       <div class="img"></div>
-       <!-- <h1><span style="color: #027f53;">5Colos</span></h1> -->
-     </div>
-     <div class="form">
-       <div class="close">&times;</div>
-       <!-- <h1 style="color: green;">Bienvenue</h1> -->
-       <p style="color: black; font-size: 20px;"><span style="font-weight: bold;">Ecole241</span> lance <span style="font-weight: bold;">"5Colos"</span>, la première plateforme <span  style="color:#027f53;font-weight: bold;">gabonaise de microservices</span>.</p>
-       <form>
-         <div class="form-group">
-           <!-- <input type="text" placeholder="Email" class="form-control"> -->
-         </div>
-         <div class="form-group">
-           <!-- <input type="password" placeholder="Password" class="form-control"> -->
-         </div>
-         <div class="form-group">
-           <!-- <label><input type="checkbox">
-             Remember Me
-           </label> -->
-         </div>
-         <!-- <button type="button" class="btn">Log In</button> -->
-       </form>
-     </div>
-  </div>
-</div>
 
 
 
@@ -238,91 +211,57 @@
   </div>
 
   <div class="body_content">
-    <section class="section-first">
-      <div class="conteneur" > 
-         <!-- <div class="divp"></div> -->
-         <div class="texte">    
-          <h1 class="animate-up-1 mb25 text-white">Trouvez le <span style="color: #fdc110;">service numérique</span> qu'il vous faut à moindre <span style="color: #fdc110;">coût</span>. </h1>
-          <p class="text-white animate-up-2" style="font-size:1.5rem">Votre satisfaction, notre <span style="color: #fdc110;">engagement</span> envers vous.<br class="d-none d-lg-block"></p>
-          <div class="advance-search-tab bgc-white bgct-sm p10 p0-md bdrs4 banner-btn position-relative zi9">
-            <div class="row">
-              <div class="col-md-5 col-lg-6 col-xl-6">
-                <div class="advance-search-field mb10-sm bdrr1 bdrn-sm">
-                  <form class="form-search position-relative">
-                    <div class="box-search">
-                      <span class="icon far fa-magnifying-glass"></span>
-                      <input class="form-control" type="text" name="search" placeholder="Que recherchez-vous?">
-                      <div class="search-suggestions">
-                        <h6 class="fz14 ml30 mt25 mb-3">Catégories</h6>
-                        <div class="box-suggestions">
-                          <ul class="px-0 m-0 pb-4">
-                            <li>  
-                              <div class="info-product">
-                                <div class="item_title">mobile app development</div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="info-product">
-                                <div class="item_title">mobile app builder</div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="info-product">
-                                <div class="item_title">mobile legends</div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="info-product">
-                                <div class="item_title">mobile app ui ux design</div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="info-product">
-                                <div class="item_title">mobile game app development</div>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="info-product">
-                                <div class="item_title">mobile app design</div>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
+    <section>
+      <div class="body_content" style="margin-bottom: 2%;">
+          <div class="swiper-container">
+            <div class="swiper-wrapper" id="gallery_wrapper">
+              <div class="swiper-slide d-flex align-items-start d-flex justify-content-center" style="background: url(./images/home/developer.jpg);height: 110vh;  width: 100vw; background-size: cover;  flex-direction: column; text-align:left; padding-left: 5%;">
+                <h1 class="animate-up-1 mb25 text-white" style="width: 50%;">Ecole 241 lance sa plateforme<span style="color: #ff0000;"> 5Colos</span>. <br>Trouvez la solution <span style="color: #ff0000;">numérique</span> qui vous convient.</h1>
+                <div class="d-flex">
+                  
+                  <a class="text-white fz18 service" href="page-service-v6.html"> Elle met à votre disposition une <br>Mutitude de services à partir de 5 mille.</a>
+                 <!--  <a class="text-white fz18 service" href="page-service-v6.html"> Application</a>
+                  <a class="text-white fz18 service" href="page-service-v6.html"> Refonte</a>
+                  <a class="text-white fz18 service" href="page-service-v6.html"> Site e-commerce</a> -->
                 </div>
               </div>
-              <div class="col-md-4 col-lg-4 col-xl-4 d-none d-md-block">
-                <div class="bselect-style1">
-                  <select class="selectpicker" data-width="100%">
-                    <option>Catégories</option>
-                    <option data-tokens="Graphics&Design">Développement Web</option>
-                    <option data-tokens="DigitlMarketing">Référents digital</option>
-                    <option data-tokens="Writing&Translation">Médias Sociaux</option>
-                    <option data-tokens="Video&Animation">Audio Visuel</option>
-                  </select>
+              <div class="swiper-slide d-flex align-items-start d-flex justify-content-center" style="background: url(./images/home/designer.jpg);height: 110vh;  width: 100vw; background-size: cover;  flex-direction: column; text-align:left; padding-left: 5%;">
+                <h1 class="animate-up-1 mb25 text-white" style="width: 50%;">Laissez-nous façonner <span style="color: #ff0000;">l'Identité</span> en ligne de votre entreprise avec notre service <span style="color: #ff0000;">Développement web</span>. </h1>
+                <div class="d-flex">
+                  <a class="text-white fz18 service" href="page-service-v6.html"> Site web</a>
+                  <a class="text-white fz18 service" href="page-service-v6.html"> Application</a>
+                  <a class="text-white fz18 service" href="page-service-v6.html"> Refonte</a>
+                  <a class="text-white fz18 service" href="page-service-v6.html"> Site e-commerce</a>
                 </div>
               </div>
-              <div class="col-md-3 col-lg-2 col-xl-2 ps-md-0">
-                <div class="text-center text-xl-end">
-                  <button class="ud-btn btn-thm w-100 px-4" type="button">Recherche</button>
+              <div class="swiper-slide d-flex align-items-start d-flex justify-content-center" style="background: url(./images/home/Rferent.jpg); height: 110vh; width: 100vw; background-size: cover; flex-direction: column; text-align:left; padding-left: 5%">
+                <h1 class="animate-up-1 mb25 text-white" style="width: 50%;">Elevez votre <span style="color: #ff0000;">communication </span> à un niveau supérieur avec notre service <span style="color: #ff0000;">Référents digital</span>. </h1>
+                <div class="d-flex">
+                  <a class="text-white fz18 service" href="page-service-v6.html"> Logo</a>
+                  <a class="text-white fz18 service" href="page-service-v6.html"> Menu restaurant</a>
+                  <a class="text-white fz18 service" href="page-service-v6.html"> Retouche photo</a>
+                  <a class="text-white fz18 service" href="page-service-v6.html"> Cartes de visite</a>
                 </div>
+              </div>
+              <div class="swiper-slide d-flex align-items-start d-flex justify-content-center" style="background: url(./images/home/SOCIAL-M.jpg); height: 110vh;  width: 100vw; background-size: cover; flex-direction: column; text-align:left; padding-left: 5%">
+                  <h1 class="animate-up-1 mb25 text-white" style="width: 50%;">Révolutionez votre <span style="color: #ff0000;">présence en ligne</span> grâce à notre service <span style="color: #ff0000;">Médias sociaux</span>. </h1>
+                  <div class="d-flex">
+                    <a class="text-white fz18 service" href="page-service-v6.html"> Community management</a>
+                    <a class="text-white fz18 service" href="page-service-v6.html"> Calendrier editorial</a>
+                    <a class="text-white fz18 service" href="page-service-v6.html"> Redaction Web</a>
+                    <a class="text-white fz18 service" href="page-service-v6.html"> Publicité </a>
+                  </div>
+              </div>
+              <div class="swiper-slide d-flex align-items-end text-lg-end justify-content-center" style="background: url(./images/home/social-media.jpg); height: 110vh;  width: 200vw; background-size: cover; flex-direction: column; text-align:right; padding-right: 10%">
+                  <h1 class="animate-up-1 mb25 text-white" style="width: 60%;">Transfromez votre <span style="color: #ff0000;">Entreprise</span> avec une stratégie <span style="color: #ff0000;">numérique</span> gagnante élaborée par nos soins.</h1>
               </div>
             </div>
+            <div class="swiper-button-next"></div>  
+            <div class="swiper-button-prev"></div>  
+            <div class="swiper-pagination"></div> 
           </div>
-          <div class="d-none d-md-flex mt30 banner-text">
-            <p class="hero-text fz15 me-2 text-white mb-0">Les plus recherchés</p>
-            <a class="text-white" href="page-service-v6.html" style="padding-right: 0.5rem;"> Developpeur,</a>
-            <a class="text-white" href="page-service-v6.html"style="padding-right: 0.5rem;"> Web,</a>
-            <a class="text-white" href="page-service-v6.html"style="padding-right: 0.5rem;"> Designer,</a>
-            <a class="text-white" href="page-social-media.html" style="padding-right: 0.5rem;"> Média,</a>
-            <a class="text-white" href="page-service-v6.html" style="padding-right: 0.5rem;"> Référents digital,</a>
-            <a class="text-white" href="page-service-v6.html"> Logo</a>
-          </div>
-         </div>
-       </div>
-   </section>
+        </div>
+       </section>
 
      <!-- Need something --> 
      <div class="main-title text-center mt50">
